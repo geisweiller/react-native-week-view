@@ -401,7 +401,7 @@ export default class WeekView extends Component {
               getItemLayout={(_, index) => this.getListItemLayout(index)}
               keyExtractor={(item) => item}
               initialScrollIndex={this.pageOffset}
-              scrollEnabled={!fixedHorizontally}
+              scrollEnabled={false}
               renderItem={({ item }) => {
                 return (
                   <Events
