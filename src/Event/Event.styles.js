@@ -7,6 +7,8 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     flex: 1,
     overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: '#fff'
   },
   description: {
     marginVertical: 8,
