@@ -36,8 +36,8 @@ const eventPropType = PropTypes.shape({
   color: PropTypes.string,
   id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   description: PropTypes.string,
-  startDate: PropTypes.instanceOf(Date).isRequired || PropTypes.string.isRequired,
-  endDate: PropTypes.instanceOf(Date).isRequired || PropTypes.string.isRequired,
+  startDate: PropTypes.instanceOf(Date).isRequired | PropTypes.string.isRequired,
+  endDate: PropTypes.instanceOf(Date).isRequired | PropTypes.string.isRequired,
 });
 
 const positionPropType = PropTypes.shape({
